@@ -1,4 +1,5 @@
 {
-  "name": "fastmacros",
-  "displayName": "fastmacros"
+  "expo": {
+    "sdkVersion": "18.0.0"
+  }
 }
