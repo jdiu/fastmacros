@@ -27,28 +27,68 @@ class TestScreen extends React.Component {
   }
 }
 
-class LandingScreen extends React.Component {
+class MacroInputScreen extends React.Component {
   constructor (props) {
     super(props);
   }
 
+  render() {
+    return(
+      <Text>This is the macro screen</Text>
+    );
+  }
+}
+
+class CalorieInputScreen extends React.Component {
+  constructor (props) {
+    super(props);
+  }
+
+  render() {
+    return(
+      <Text>This is the calorie screen</Text>
+    );
+  }
+}
+
+class LandingScreen extends React.Component {
+  constructor (props) {
+    super(props);
+    // Default settings, add support for user settings
+    this.state = {
+      calories: 2000,
+      protein: .33,
+      fat: .33,
+      carb: .34,
+      calorieMode: true
+    }
+  }
+
+
+  // Use these for optimization (anti-pattern) or nah in touchablehighlights
+  // _onPressCal = () => { this.setState({ calorieMode: true }); console.log("cal pressed"); };
+
   render () {
     const { navigate } = this.props.navigation;
     return (
-      <View style={styles.mainNav}>
-        <View style={styles.buttonContainer}>
-          <TouchableHighlight style={styles.button} onPress={() => navigate('Test')}>
+      <View style={ styles.mainNav }>
+        <View style={ styles.buttonContainer }>
+          <TouchableHighlight style={ styles.button } onPress={ () => this.setState({ calorieMode: false }) }>
             <Text>Input Macros</Text>
           </TouchableHighlight>
-          <TouchableHighlight style={styles.button} onPress={() => navigate('Test')}>
+          <TouchableHighlight style={ styles.button } onPress={ () => this.setState({ calorieMode: true }) }>
             <Text>Input Calories</Text>
           </TouchableHighlight>
         </View>
-        <View style={styles.contentContainer}>
-          <Text>fuck</Text>
+        <View style={ styles.contentContainer }>
+          { this.state.calorieMode ? <CalorieInputScreen /> : <MacroInputScreen /> }
+        </View>
+        <View style={ styles.buttonContainer }>
+          <TouchableHighlight style={ styles. button } onPress = { () => navigate('Test') }>
+            <Text>Next Screen</Text>
+          </TouchableHighlight>
         </View>
       </View>
-      
     );
   }
 }
@@ -79,7 +119,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   contentContainer: {
-    flex: 9,
+    flex: 8,
   },
   buttonContainer: {
     flex: 1,
