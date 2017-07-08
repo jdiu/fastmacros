@@ -19,6 +19,11 @@ export class MacroInputScreen extends React.Component {
     };
   }
 
+  onChanged = (obj) => {
+    console.log('called callback')
+    this.setState(obj);
+  }
+
   render() {
     return(
         <KeyboardAvoidingView style={ globalStyles.container } behavior="padding">
@@ -29,10 +34,6 @@ export class MacroInputScreen extends React.Component {
                 stateVar='inputProtein' />
         </KeyboardAvoidingView>
     );
-  }
-
-  onChanged (obj) {
-    this.setState(obj);
   }
 }
 

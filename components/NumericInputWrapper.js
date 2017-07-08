@@ -43,7 +43,7 @@ export default class NumericInputWrapper extends React.Component {
         var obj = {};
         obj[this.state.stateVar] = text;
 
-        this.state.onChangedCallback(obj);
+        this.props.onChangedCallback(obj);
     }
 }
 
