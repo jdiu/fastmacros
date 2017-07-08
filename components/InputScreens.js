@@ -20,7 +20,7 @@ export class MacroInputScreen extends React.Component {
   }
 
   onChanged = (obj) => {
-    console.log('called callback')
+    console.log('called callback');
     this.setState(obj);
   }
 
