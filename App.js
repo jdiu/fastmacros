@@ -5,7 +5,6 @@ import {
   View,
   AppRegistry,
   Button,
-  TouchableHighlight
 } from 'react-native';
 import { StackNavigator } from 'react-navigation';
 import { MacroInputScreen, CalorieInputScreen } from './components/InputScreens';
@@ -21,11 +20,6 @@ class LandingScreen extends React.Component {
     super(props);
     // Default settings, add support for user settings
     this.state = {
-      calories: 2000,
-      protein: .33,
-      fat: .33,
-      carb: .34,
-      calorieMode: true,
       index: 0,
       routes: [
         { key: '1', title: 'Macro Input' },
