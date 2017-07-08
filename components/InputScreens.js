@@ -7,6 +7,7 @@ import {
   Button,
   TouchableHighlight
 } from 'react-native';
+import { globalStyles } from '../globalstyles.js';
 
 export class MacroInputScreen extends React.Component {
   constructor (props) {
@@ -15,7 +16,9 @@ export class MacroInputScreen extends React.Component {
 
   render() {
     return(
-      <Text>This is the macro screen</Text>
+      <View style={ globalStyles.container }>
+        <Text>This is the macro screen</Text>
+      </View>
     );
   }
 }
@@ -27,7 +30,9 @@ export class CalorieInputScreen extends React.Component {
 
   render() {
     return(
-      <Text>This is the calorie screen</Text>
+      <View style={ globalStyles.container }>
+        <Text>This is the calorie screen</Text>
+      </View>
     );
   }
 }

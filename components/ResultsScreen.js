@@ -7,7 +7,7 @@ import {
   Button,
   TouchableHighlight
 } from 'react-native';
-import globalStyles from '../globalstyles.js';
+import { globalStyles } from '../globalstyles.js';
 
 export default class ResultsScreen extends React.Component {
   static navigationOptions = {
@@ -20,7 +20,7 @@ export default class ResultsScreen extends React.Component {
 
   render () {
     return (
-      <View style={globalStyles.data.container}>
+      <View style={globalStyles.container}>
         <Text> TestScreen </Text>
       </View>
     );

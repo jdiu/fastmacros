@@ -8,4 +8,4 @@ const globalStyles = StyleSheet.create({
   }
 });
 
-module.exports = {data: globalStyles};
+exports.globalStyles = globalStyles;
