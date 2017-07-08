@@ -8,48 +8,9 @@ import {
   TouchableHighlight
 } from 'react-native';
 import { StackNavigator } from 'react-navigation';
-
-class TestScreen extends React.Component {
-  static navigationOptions = {
-    title: 'TestScreen',
-  };
-
-  constructor(props) {
-    super(props);
-  }
-
-  render () {
-    return (
-      <View style={styles.container}>
-        <Text> TestScreen </Text>
-      </View>
-    );
-  }
-}
-
-class MacroInputScreen extends React.Component {
-  constructor (props) {
-    super(props);
-  }
-
-  render() {
-    return(
-      <Text>This is the macro screen</Text>
-    );
-  }
-}
-
-class CalorieInputScreen extends React.Component {
-  constructor (props) {
-    super(props);
-  }
-
-  render() {
-    return(
-      <Text>This is the calorie screen</Text>
-    );
-  }
-}
+import { MacroInputScreen, CalorieInputScreen } from './components/InputScreens';
+import ResultsScreen from './components/ResultsScreen';
+import globalStyles from './globalstyles.js';
 
 class LandingScreen extends React.Component {
   constructor (props) {
@@ -84,7 +45,7 @@ class LandingScreen extends React.Component {
           { this.state.calorieMode ? <CalorieInputScreen /> : <MacroInputScreen /> }
         </View>
         <View style={ styles.buttonContainer }>
-          <TouchableHighlight style={ styles. button } onPress = { () => navigate('Test') }>
+          <TouchableHighlight style={ styles.button } onPress = { () => navigate('Results') }>
             <Text>Next Screen</Text>
           </TouchableHighlight>
         </View>
@@ -94,8 +55,8 @@ class LandingScreen extends React.Component {
 }
 
 const MainNavigation = StackNavigator({
-  Default: { screen: LandingScreen },
-  Test: { screen: TestScreen },
+  Landing: { screen: LandingScreen },
+  Results: { screen: ResultsScreen },
 });
 
 export default class App extends React.Component {
@@ -107,11 +68,6 @@ export default class App extends React.Component {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
   mainNav: {
     flex: 1,
     flexDirection: 'column',
