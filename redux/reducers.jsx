@@ -18,3 +18,5 @@ function updateall(state = initialState, action) {
             })
     }
 }
+
+export default updateall
