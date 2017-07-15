@@ -21,7 +21,7 @@ export default class NumericInputWrapper extends React.Component {
     render () {
         return (
             <View style={ styles.inputWrapper }>
-                <Text>{this.state.label}</Text>
+                <Text style = {styles.inputLabel}>{this.state.label}</Text>
                 <TextInput
                     style = {styles.numericInput}
                     keyboardType = 'numeric'
@@ -50,7 +50,12 @@ export default class NumericInputWrapper extends React.Component {
 
 const styles = StyleSheet.create({
     numericInput: {
-        width: 100,
+        flex: 2,
+        padding: 5,
+    },
+    inputLabel: {
+        flex: 1,
+        textAlign: 'right',
         padding: 5,
     },
     inputWrapper: {

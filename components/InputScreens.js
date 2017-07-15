@@ -32,6 +32,16 @@ export class MacroInputScreen extends React.Component {
                 value={this.state.inputProtein}
                 onChangedCallback={this.onChanged}
                 stateVar='inputProtein' />
+            <NumericInputWrapper 
+                label="Carbs"
+                value={this.state.inputCarbs}
+                onChangedCallback={this.onChanged}
+                stateVar='inputCarbs' />
+            <NumericInputWrapper 
+                label="Fats"
+                value={this.state.inputFats}
+                onChangedCallback={this.onChanged}
+                stateVar='inputFats' />
         </KeyboardAvoidingView>
     );
   }
