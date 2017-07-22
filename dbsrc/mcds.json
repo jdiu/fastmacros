@@ -1,0 +1,1490 @@
+[
+    {
+        "Calories": "50",
+        "Carbs": "0",
+        "Fats": "6",
+        "Name": "Becel Margarine Portions",
+        "Proteins": "0",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "35",
+        "Carbs": "0",
+        "Fats": "3.5",
+        "Name": "Butter Portion",
+        "Proteins": "0",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "40",
+        "Carbs": "9",
+        "Fats": "0",
+        "Name": "Chicken McNuggets Barbeque Sauce",
+        "Proteins": "0",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "60",
+        "Carbs": "9",
+        "Fats": "2",
+        "Name": "Chicken McNuggets Hot Mustard Sauce",
+        "Proteins": "1",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "50",
+        "Carbs": "12",
+        "Fats": "0",
+        "Name": "Chicken McNuggets Sweet & Sour Sauce",
+        "Proteins": "0",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "40",
+        "Carbs": "2",
+        "Fats": "3.5",
+        "Name": "Granulated Peanuts Packet",
+        "Proteins": "2",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "45",
+        "Carbs": "12",
+        "Fats": "0",
+        "Name": "Honey Packet",
+        "Proteins": "0",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "180",
+        "Carbs": "46",
+        "Fats": "0",
+        "Name": "Hotcake Syrup Packet",
+        "Proteins": "0",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "10",
+        "Carbs": "3",
+        "Fats": "0",
+        "Name": "Ketchup Packet",
+        "Proteins": "0",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "60",
+        "Carbs": "14",
+        "Fats": "0",
+        "Name": "Maple Brown Sugar Packet",
+        "Proteins": "0",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "100",
+        "Carbs": "1",
+        "Fats": "11",
+        "Name": "McChicken Sauce Packet",
+        "Proteins": "0",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "110",
+        "Carbs": "4",
+        "Fats": "10",
+        "Name": "Peanut Butter Packet",
+        "Proteins": "4",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "110",
+        "Carbs": "9",
+        "Fats": "7",
+        "Name": "Pure Kraft Sesame Dressing",
+        "Proteins": "1",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "210",
+        "Carbs": "2",
+        "Fats": "22",
+        "Name": "Pure Kraft\u2122 Asiago Caesar Dressing",
+        "Proteins": "1",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "150",
+        "Carbs": "3",
+        "Fats": "14",
+        "Name": "Pure Kraft\u2122 Calorie-Wise\u2122 Asiago Caesar Dressing",
+        "Proteins": "1",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "140",
+        "Carbs": "3",
+        "Fats": "14",
+        "Name": "Pure Kraft\u2122 Greek Feta Dressing",
+        "Proteins": "1",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "120",
+        "Carbs": "12",
+        "Fats": "8",
+        "Name": "Pure Kraft\u2122 Sweet Balsamic Vinaigrette Dressing",
+        "Proteins": "0",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "5",
+        "Carbs": "1",
+        "Fats": "0",
+        "Name": "Salsa Sauce Packet",
+        "Proteins": "0",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "50",
+        "Carbs": "14",
+        "Fats": "0",
+        "Name": "Strawberry Jam Packet",
+        "Proteins": "0",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "2",
+        "Carbs": "0",
+        "Fats": "0",
+        "Name": "Vinegar Packet",
+        "Proteins": "0",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "270",
+        "Carbs": "34",
+        "Fats": "14",
+        "Name": "Baked Apple Pie",
+        "Proteins": "3",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "260",
+        "Carbs": "34",
+        "Fats": "13",
+        "Name": "Baked Chocolate Banana Pie",
+        "Proteins": "2",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "270",
+        "Carbs": "36",
+        "Fats": "13",
+        "Name": "Birthday Cake - Vanilla",
+        "Proteins": "2",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "230",
+        "Carbs": "39",
+        "Fats": "6",
+        "Name": "Cone - Vanilla",
+        "Proteins": "5",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "170",
+        "Carbs": "22",
+        "Fats": "9",
+        "Name": "Crushed SKOR Candy Bars - Regular size portion",
+        "Proteins": "1",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "250",
+        "Carbs": "38",
+        "Fats": "10",
+        "Name": "M&M\u2019S Candies - Regular size portion",
+        "Proteins": "3",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "620",
+        "Carbs": "98",
+        "Fats": "21",
+        "Name": "McFlurry dessert - Cadbury Creme Egg - Regular size portion",
+        "Proteins": "12",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "630",
+        "Carbs": "102",
+        "Fats": "20",
+        "Name": "McFlurry dessert - Caramel Brownie - Regular size portion",
+        "Proteins": "11",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "640",
+        "Carbs": "96",
+        "Fats": "24",
+        "Name": "McFlurry dessert - Chocolate Fudge Brownie - Regular size portion",
+        "Proteins": "12",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "530",
+        "Carbs": "81",
+        "Fats": "20",
+        "Name": "McFlurry dessert - Crushed SKOR Candy Bars - Regular size portion",
+        "Proteins": "10",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "620",
+        "Carbs": "97",
+        "Fats": "21",
+        "Name": "McFlurry dessert - M&M\u2019S Candies - Regular size portion",
+        "Proteins": "11",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "670",
+        "Carbs": "103",
+        "Fats": "24",
+        "Name": "McFlurry dessert - Mud Pie - Regular size portion",
+        "Proteins": "13",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "570",
+        "Carbs": "89",
+        "Fats": "20",
+        "Name": "McFlurry dessert - Oreo - Regular size portion",
+        "Proteins": "10",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "200",
+        "Carbs": "30",
+        "Fats": "9",
+        "Name": "Oreo Mix-in - Regular portion",
+        "Proteins": "2",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "25",
+        "Carbs": "4",
+        "Fats": "0.4",
+        "Name": "Strawberry Yogurt Tube",
+        "Proteins": "1",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "340",
+        "Carbs": "62",
+        "Fats": "8",
+        "Name": "Sundae - Hot Caramel",
+        "Proteins": "6",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "340",
+        "Carbs": "54",
+        "Fats": "11",
+        "Name": "Sundae - Hot Fudge",
+        "Proteins": "7",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "280",
+        "Carbs": "51",
+        "Fats": "6",
+        "Name": "Sundae - Strawberry",
+        "Proteins": "5",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "750",
+        "Carbs": "134",
+        "Fats": "18",
+        "Name": "Triple Thick Milkshake - Chocolate, Medium",
+        "Proteins": "15",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "700",
+        "Carbs": "122",
+        "Fats": "18",
+        "Name": "Triple Thick Milkshake - Raspberry, Medium",
+        "Proteins": "14",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "720",
+        "Carbs": "127",
+        "Fats": "18",
+        "Name": "Triple Thick Milkshake - Strawberry, Medium",
+        "Proteins": "14",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "720",
+        "Carbs": "127",
+        "Fats": "18",
+        "Name": "Triple Thick Milkshake - Vanilla, Medium",
+        "Proteins": "14",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "370",
+        "Carbs": "59",
+        "Fats": "11",
+        "Name": "Vanilla McFlurry Base - Regular portion",
+        "Proteins": "9",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "4",
+        "Carbs": "0",
+        "Fats": "0",
+        "Name": "Americano - Medium",
+        "Proteins": "0",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "250",
+        "Carbs": "28",
+        "Fats": "13",
+        "Name": "Authentic French Croissant",
+        "Proteins": "5",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "300",
+        "Carbs": "42",
+        "Fats": "13",
+        "Name": "Blueberry Cream Cheese Danish",
+        "Proteins": "6",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "260",
+        "Carbs": "62",
+        "Fats": "1",
+        "Name": "Blueberry Pomegranate Smoothie with yogurt - Medium",
+        "Proteins": "3",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "270",
+        "Carbs": "66",
+        "Fats": "0",
+        "Name": "Blueberry Pomegranate Smoothie without yogurt - Medium",
+        "Proteins": "1",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "130",
+        "Carbs": "11",
+        "Fats": "5",
+        "Name": "Cappuccino with 2% milk - Medium",
+        "Proteins": "9",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "80",
+        "Carbs": "12",
+        "Fats": "0",
+        "Name": "Cappuccino with skim milk - Medium",
+        "Proteins": "9",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "230",
+        "Carbs": "35",
+        "Fats": "5",
+        "Name": "Caramel Cappuccino with 2% milk - Medium",
+        "Proteins": "9",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "180",
+        "Carbs": "36",
+        "Fats": "0",
+        "Name": "Caramel Cappuccino with skim milk - Medium",
+        "Proteins": "9",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "130",
+        "Carbs": "14",
+        "Fats": "8",
+        "Name": "Caramel Iced Coffee - Medium",
+        "Proteins": "2",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "260",
+        "Carbs": "37",
+        "Fats": "6",
+        "Name": "Caramel Latte with 2% milk - Medium",
+        "Proteins": "11",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "190",
+        "Carbs": "39",
+        "Fats": "0",
+        "Name": "Caramel Latte with skim milk - Medium",
+        "Proteins": "11",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "270",
+        "Carbs": "28",
+        "Fats": "14",
+        "Name": "Cheese Croissant",
+        "Proteins": "6",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "310",
+        "Carbs": "42",
+        "Fats": "15",
+        "Name": "Chocolate Chunk Brownie",
+        "Proteins": "4",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "4",
+        "Carbs": "0",
+        "Fats": "0",
+        "Name": "Coffee - Medium",
+        "Proteins": "1",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "480",
+        "Carbs": "69",
+        "Fats": "18",
+        "Name": "Coffee Iced Frapp\u00e9 - Medium",
+        "Proteins": "9",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "400",
+        "Carbs": "57",
+        "Fats": "12",
+        "Name": "Deluxe Hot Chocolate with 2% milk - Medium",
+        "Proteins": "15",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "320",
+        "Carbs": "58",
+        "Fats": "5",
+        "Name": "Deluxe Hot Chocolate with skim milk - Medium",
+        "Proteins": "15",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "5",
+        "Carbs": "0",
+        "Fats": "0",
+        "Name": "Double Espresso",
+        "Proteins": "0",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "3",
+        "Carbs": "0",
+        "Fats": "0",
+        "Name": "Espresso",
+        "Proteins": "0",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "200",
+        "Carbs": "50",
+        "Fats": "0",
+        "Name": "Frozen Lemonade - Medium",
+        "Proteins": "0",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "170",
+        "Carbs": "22",
+        "Fats": "8",
+        "Name": "Iced Coffee - Medium",
+        "Proteins": "2",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "170",
+        "Carbs": "14",
+        "Fats": "7",
+        "Name": "Latte with 2% milk - Medium",
+        "Proteins": "11",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "100",
+        "Carbs": "16",
+        "Fats": "0",
+        "Name": "Latte with skim milk - Medium",
+        "Proteins": "11",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "260",
+        "Carbs": "61",
+        "Fats": "1",
+        "Name": "Mango Pineapple Smoothie with yogurt -  Medium",
+        "Proteins": "3",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "270",
+        "Carbs": "66",
+        "Fats": "0.5",
+        "Name": "Mango Pineapple Smoothie without yogurt - Medium",
+        "Proteins": "2",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "250",
+        "Carbs": "35",
+        "Fats": "11",
+        "Name": "Maple Apple Danish",
+        "Proteins": "4",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "120",
+        "Carbs": "16",
+        "Fats": "5",
+        "Name": "Mini Chocolatine",
+        "Proteins": "2",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "130",
+        "Carbs": "18",
+        "Fats": "5",
+        "Name": "Mini Maple",
+        "Proteins": "2",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "150",
+        "Carbs": "17",
+        "Fats": "8",
+        "Name": "Mini Raspberry",
+        "Proteins": "3",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "380",
+        "Carbs": "55",
+        "Fats": "11",
+        "Name": "Mocha with 2% milk \u2013 Medium",
+        "Proteins": "14",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "320",
+        "Carbs": "56",
+        "Fats": "5",
+        "Name": "Mocha with skim milk \u2013 Medium",
+        "Proteins": "14",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "670",
+        "Carbs": "103",
+        "Fats": "25",
+        "Name": "Oreo Cookie Coffee Iced Frapp\u00e9 \u2013 Medium",
+        "Proteins": "10",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "240",
+        "Carbs": "56",
+        "Fats": "1",
+        "Name": "Strawberry Banana Smoothie with Yogurt - Medium",
+        "Proteins": "3",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "250",
+        "Carbs": "60",
+        "Fats": "0",
+        "Name": "Strawberry Banana Smoothie without yogurt - Medium",
+        "Proteins": "2",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "390",
+        "Carbs": "48",
+        "Fats": "19",
+        "Name": "Strawberry Cream Cheese Danish",
+        "Proteins": "6",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "250",
+        "Carbs": "58",
+        "Fats": "1",
+        "Name": "Strawberry Mango Orange Smoothie with Yogurt - Medium",
+        "Proteins": "4",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "260",
+        "Carbs": "63",
+        "Fats": "0",
+        "Name": "Strawberry Mango Orange Smoothie without yogurt - Medium",
+        "Proteins": "3",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "140",
+        "Carbs": "18",
+        "Fats": "5",
+        "Name": "Sugar Free Vanilla Cappuccino with 2% milk - Medium",
+        "Proteins": "9",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "80",
+        "Carbs": "19",
+        "Fats": "0",
+        "Name": "Sugar Free Vanilla Cappuccino with skim milk - Medium",
+        "Proteins": "9",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "100",
+        "Carbs": "7",
+        "Fats": "9",
+        "Name": "Sugar Free Vanilla Iced Coffee - Medium",
+        "Proteins": "2",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "170",
+        "Carbs": "21",
+        "Fats": "6",
+        "Name": "Sugar Free Vanilla Latte with 2% milk - Medium",
+        "Proteins": "11",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "100",
+        "Carbs": "22",
+        "Fats": "0",
+        "Name": "Sugar Free Vanilla Latte with skim milk - Medium",
+        "Proteins": "11",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "240",
+        "Carbs": "38",
+        "Fats": "5",
+        "Name": "Vanilla Cappuccino with 2% milk - Medium",
+        "Proteins": "9",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "190",
+        "Carbs": "39",
+        "Fats": "0",
+        "Name": "Vanilla Cappuccino with skim milk - Medium",
+        "Proteins": "9",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "580",
+        "Carbs": "81",
+        "Fats": "24",
+        "Name": "Vanilla Chai Iced Frapp\u00e9 - Medium",
+        "Proteins": "9",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "150",
+        "Carbs": "16",
+        "Fats": "9",
+        "Name": "Vanilla Iced Coffee - Medium",
+        "Proteins": "2",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "270",
+        "Carbs": "40",
+        "Fats": "6",
+        "Name": "Vanilla Latte with 2% milk - Medium",
+        "Proteins": "11",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "200",
+        "Carbs": "42",
+        "Fats": "0",
+        "Name": "Vanilla Latte with skim milk - Medium",
+        "Proteins": "11",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "170",
+        "Carbs": "26",
+        "Fats": "2.5",
+        "Name": "1% Partly Skimmed Chocolate Milk - 250 ml",
+        "Proteins": "9",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "110",
+        "Carbs": "12",
+        "Fats": "2.5",
+        "Name": "1% Partly Skimmed Milk - 250 ml",
+        "Proteins": "9",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "230",
+        "Carbs": "59",
+        "Fats": "0",
+        "Name": "Barq's Root Beer - Medium",
+        "Proteins": "0",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "1",
+        "Carbs": "0",
+        "Fats": "0",
+        "Name": "Coca-Cola Zero - Medium",
+        "Proteins": "0",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "220",
+        "Carbs": "56",
+        "Fats": "0",
+        "Name": "Coca-Cola - Medium",
+        "Proteins": "0",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "0",
+        "Carbs": "0",
+        "Fats": "0",
+        "Name": "Dasani Water",
+        "Proteins": "0",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "1",
+        "Carbs": "0",
+        "Fats": "0",
+        "Name": "Diet Coke - Medium",
+        "Proteins": "0",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "230",
+        "Carbs": "64",
+        "Fats": "0",
+        "Name": "Fruitopia Orange Groove - Medium",
+        "Proteins": "0",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "240",
+        "Carbs": "61",
+        "Fats": "0",
+        "Name": "Fruitopia Strawberry Passion Awareness - Medium",
+        "Proteins": "0",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "200",
+        "Carbs": "26",
+        "Fats": "9",
+        "Name": "Higgins & Burke Hot Chocolate",
+        "Proteins": "4",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "160",
+        "Carbs": "40",
+        "Fats": "0",
+        "Name": "Juice - Apple - Medium",
+        "Proteins": "1",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "180",
+        "Carbs": "42",
+        "Fats": "0",
+        "Name": "Juice- Orange - Medium",
+        "Proteins": "0",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "160",
+        "Carbs": "40",
+        "Fats": "0",
+        "Name": "Nestea Iced Tea - Medium",
+        "Proteins": "0",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "200",
+        "Carbs": "51",
+        "Fats": "0",
+        "Name": "Sprite - Medium",
+        "Proteins": "0",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "40",
+        "Carbs": "10",
+        "Fats": "0",
+        "Name": "Apple Slices",
+        "Proteins": "0",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "160",
+        "Carbs": "22",
+        "Fats": "7",
+        "Name": "Chocolate Chip Cookie",
+        "Proteins": "2",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "350",
+        "Carbs": "46",
+        "Fats": "17",
+        "Name": "French Fries - Medium",
+        "Proteins": "4",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "200",
+        "Carbs": "41",
+        "Fats": "2",
+        "Name": "Fruit 'n Yogurt Parfait",
+        "Proteins": "6",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "120",
+        "Carbs": "16",
+        "Fats": "6",
+        "Name": "Mini Fry",
+        "Proteins": "1",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "430",
+        "Carbs": "73",
+        "Fats": "13",
+        "Name": "Muffin - Banana Chocolate Chunk",
+        "Proteins": "7",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "430",
+        "Carbs": "65",
+        "Fats": "16",
+        "Name": "Muffin - Carrot",
+        "Proteins": "6",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "360",
+        "Carbs": "67",
+        "Fats": "8",
+        "Name": "Muffin - Cranberry Orange",
+        "Proteins": "6",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "380",
+        "Carbs": "60",
+        "Fats": "14",
+        "Name": "Muffin - Fruit & Fibre",
+        "Proteins": "6",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "430",
+        "Carbs": "66",
+        "Fats": "16",
+        "Name": "Muffin \u2013 Blueberry",
+        "Proteins": "7",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "140",
+        "Carbs": "22",
+        "Fats": "5",
+        "Name": "Oatmeal Raisin Cookie",
+        "Proteins": "2",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "510",
+        "Carbs": "44",
+        "Fats": "30",
+        "Name": "Poutine",
+        "Proteins": "17",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "540",
+        "Carbs": "62",
+        "Fats": "25",
+        "Name": "BLT Bagel with Multigrain Bagel",
+        "Proteins": "17",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "520",
+        "Carbs": "63",
+        "Fats": "22",
+        "Name": "BLT Bagel with Regular Bagel",
+        "Proteins": "17",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "310",
+        "Carbs": "29",
+        "Fats": "14",
+        "Name": "Bacon 'n Egg McMuffin sandwich",
+        "Proteins": "16",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "620",
+        "Carbs": "63",
+        "Fats": "30",
+        "Name": "Bacon N' Egg Bagel with Multigrain Bagel",
+        "Proteins": "24",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "600",
+        "Carbs": "63",
+        "Fats": "27",
+        "Name": "Bacon N' Egg Bagel with Regular Bagel",
+        "Proteins": "24",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "400",
+        "Carbs": "44",
+        "Fats": "17",
+        "Name": "Bacon, Egg & Cheese McGriddles sandwich",
+        "Proteins": "16",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "640",
+        "Carbs": "49",
+        "Fats": "38",
+        "Name": "Big Breakfast",
+        "Proteins": "24",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "290",
+        "Carbs": "25",
+        "Fats": "16",
+        "Name": "Breakfast Burrito",
+        "Proteins": "13",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "360",
+        "Carbs": "30",
+        "Fats": "19",
+        "Name": "Egg BLT McMuffin",
+        "Proteins": "16",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "290",
+        "Carbs": "29",
+        "Fats": "11",
+        "Name": "Egg McMuffin sandwich",
+        "Proteins": "16",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "520",
+        "Carbs": "62",
+        "Fats": "20",
+        "Name": "Egg, Lettuce and Tomato Bagel with Multigrain Bagel",
+        "Proteins": "20",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "490",
+        "Carbs": "63",
+        "Fats": "18",
+        "Name": "Egg, Lettuce and Tomato Bagel with Regular Bagel",
+        "Proteins": "20",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "170",
+        "Carbs": "27",
+        "Fats": "4",
+        "Name": "English Muffin with Butter",
+        "Proteins": "5",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "430",
+        "Carbs": "37",
+        "Fats": "22",
+        "Name": "Feta & Tomato More-Ning McWrap",
+        "Proteins": "21",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "290",
+        "Carbs": "62",
+        "Fats": "2.5",
+        "Name": "Fruit & Maple Oatmeal",
+        "Proteins": "5",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "160",
+        "Carbs": "16",
+        "Fats": "10",
+        "Name": "Hash Browns",
+        "Proteins": "1",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "600",
+        "Carbs": "106",
+        "Fats": "16",
+        "Name": "Hotcakes with Syrup and Butter",
+        "Proteins": "8",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "400",
+        "Carbs": "60",
+        "Fats": "12",
+        "Name": "Multigrain Bagel with Butter",
+        "Proteins": "11",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "370",
+        "Carbs": "61",
+        "Fats": "10",
+        "Name": "Regular Bagel with Butter",
+        "Proteins": "11",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "430",
+        "Carbs": "31",
+        "Fats": "25",
+        "Name": "Sausage 'N Egg McMuffin",
+        "Proteins": "20",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "400",
+        "Carbs": "45",
+        "Fats": "20",
+        "Name": "Sausage McGriddles sandwich",
+        "Proteins": "11",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "370",
+        "Carbs": "31",
+        "Fats": "20",
+        "Name": "Sausage McMuffin",
+        "Proteins": "14",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "710",
+        "Carbs": "56",
+        "Fats": "42",
+        "Name": "Sausage and Hash Brown More-ning McWrap",
+        "Proteins": "28",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "520",
+        "Carbs": "47",
+        "Fats": "28",
+        "Name": "Sausage, Egg & Cheese McGriddles sandwich",
+        "Proteins": "20",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "470",
+        "Carbs": "34",
+        "Fats": "25",
+        "Name": "Traditional Breakfast - White Toast (Qu\u00e9bec)",
+        "Proteins": "26",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "410",
+        "Carbs": "29",
+        "Fats": "22",
+        "Name": "Asian Sesame Fusion with Crispy Chicken",
+        "Proteins": "25",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "270",
+        "Carbs": "13",
+        "Fats": "12",
+        "Name": "Asian Sesame Fusion with Grilled Chicken",
+        "Proteins": "30",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "520",
+        "Carbs": "30",
+        "Fats": "29",
+        "Name": "Caesar Salad with Crispy Chicken",
+        "Proteins": "30",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "390",
+        "Carbs": "14",
+        "Fats": "18",
+        "Name": "Caesar Salad with Grilled Chicken",
+        "Proteins": "35",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "440",
+        "Carbs": "39",
+        "Fats": "21",
+        "Name": "Greek Salad with Crispy Chicken",
+        "Proteins": "27",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "310",
+        "Carbs": "24",
+        "Fats": "10",
+        "Name": "Greek Salad with Grilled Chicken",
+        "Proteins": "33",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "150",
+        "Carbs": "12",
+        "Fats": "8",
+        "Name": "Side Caesar Salad",
+        "Proteins": "6",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "40",
+        "Carbs": "3",
+        "Fats": "2",
+        "Name": "Side Garden Salad",
+        "Proteins": "3",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "770",
+        "Carbs": "53",
+        "Fats": "41",
+        "Name": "Bacon & Cheddar Angus",
+        "Proteins": "46",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "420",
+        "Carbs": "34",
+        "Fats": "21",
+        "Name": "Bacon McDouble sandwich",
+        "Proteins": "24",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "520",
+        "Carbs": "45",
+        "Fats": "28",
+        "Name": "Big Mac sandwich",
+        "Proteins": "24",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "290",
+        "Carbs": "33",
+        "Fats": "11",
+        "Name": "Cheeseburger",
+        "Proteins": "15",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "600",
+        "Carbs": "47",
+        "Fats": "33",
+        "Name": "Chicken & Bacon Signature McWrap with Crispy Chicken",
+        "Proteins": "31",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "500",
+        "Carbs": "35",
+        "Fats": "24",
+        "Name": "Chicken & Bacon Signature McWrap with Grilled Chicken",
+        "Proteins": "38",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "290",
+        "Carbs": "30",
+        "Fats": "13",
+        "Name": "Chicken Snack Wrap",
+        "Proteins": "14",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "290",
+        "Carbs": "35",
+        "Fats": "11",
+        "Name": "Chipotle Chicken Snack Wrap with Crispy Chicken",
+        "Proteins": "13",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "240",
+        "Carbs": "29",
+        "Fats": "7",
+        "Name": "Chipotle Chicken Snack Wrap with Grilled Chicken",
+        "Proteins": "17",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "680",
+        "Carbs": "46",
+        "Fats": "38",
+        "Name": "Double Big Mac sandwich",
+        "Proteins": "40",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "420",
+        "Carbs": "35",
+        "Fats": "20",
+        "Name": "Double Cheeseburger",
+        "Proteins": "24",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "560",
+        "Carbs": "53",
+        "Fats": "29",
+        "Name": "Double Filet-O-Fish",
+        "Proteins": "23",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "740",
+        "Carbs": "42",
+        "Fats": "43",
+        "Name": "Double Quarter Pounder with Cheese",
+        "Proteins": "47",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "650",
+        "Carbs": "39",
+        "Fats": "37",
+        "Name": "Double Quarter Pounder without Cheese",
+        "Proteins": "42",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "400",
+        "Carbs": "40",
+        "Fats": "21",
+        "Name": "Filet-O-Fish sandwich",
+        "Proteins": "14",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "250",
+        "Carbs": "31",
+        "Fats": "9",
+        "Name": "Grilled Cheese sandwich",
+        "Proteins": "11",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "240",
+        "Carbs": "24",
+        "Fats": "9",
+        "Name": "Grilled Chicken Snack Wrap",
+        "Proteins": "17",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "240",
+        "Carbs": "32",
+        "Fats": "8",
+        "Name": "Hamburger",
+        "Proteins": "12",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "370",
+        "Carbs": "34",
+        "Fats": "17",
+        "Name": "McDouble sandwich",
+        "Proteins": "21",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "790",
+        "Carbs": "56",
+        "Fats": "43",
+        "Name": "Mighty Angus Original",
+        "Proteins": "42",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "520",
+        "Carbs": "41",
+        "Fats": "26",
+        "Name": "Quarter Pounder with Cheese",
+        "Proteins": "30",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "600",
+        "Carbs": "42",
+        "Fats": "35",
+        "Name": "Quarter Pounder BLT",
+        "Proteins": "31",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "420",
+        "Carbs": "39",
+        "Fats": "20",
+        "Name": "Quarter Pounder without cheese",
+        "Proteins": "24",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "730",
+        "Carbs": "58",
+        "Fats": "37",
+        "Name": "Smokehouse BBQ Angus",
+        "Proteins": "41",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "520",
+        "Carbs": "55",
+        "Fats": "23",
+        "Name": "Sweet Chili Signature McWrap with Crispy Chicken",
+        "Proteins": "23",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "420",
+        "Carbs": "43",
+        "Fats": "14",
+        "Name": "Sweet Chili Signature McWrap with Grilled Chicken",
+        "Proteins": "30",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "410",
+        "Carbs": "26",
+        "Fats": "23",
+        "Name": "10 Chicken McNuggets",
+        "Proteins": "26",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "830",
+        "Carbs": "51",
+        "Fats": "46",
+        "Name": "20 Chicken McNuggets",
+        "Proteins": "52",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "170",
+        "Carbs": "10",
+        "Fats": "9",
+        "Name": "4 Chicken McNuggets",
+        "Proteins": "10",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "250",
+        "Carbs": "15",
+        "Fats": "14",
+        "Name": "6 Chicken McNuggets",
+        "Proteins": "16",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "350",
+        "Carbs": "38",
+        "Fats": "15",
+        "Name": "Bacon Ranch Junior Chicken",
+        "Proteins": "16",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "620",
+        "Carbs": "60",
+        "Fats": "31",
+        "Name": "Country Chicken with Crispy Chicken",
+        "Proteins": "29",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "430",
+        "Carbs": "44",
+        "Fats": "15",
+        "Name": "Country Chicken with Grilled Chicken",
+        "Proteins": "34",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "370",
+        "Carbs": "36",
+        "Fats": "20",
+        "Name": "Junior Chicken sandwich",
+        "Proteins": "13",
+        "Restaurant": "McDonald"
+    },
+    {
+        "Calories": "470",
+        "Carbs": "44",
+        "Fats": "27",
+        "Name": "McChicken sandwich",
+        "Proteins": "16",
+        "Restaurant": "McDonald"
+    }
+]
