@@ -52,11 +52,13 @@ def parse_mcds(file):
 
             food_list.append({
                 'Name': name,
-                'Calories': calories,
-                'Carbs': carbs,
-                'Fats': fats,
-                'Proteins': proteins,
-                'Restaurant': 'McDonald'
+                'Restaurant': 'McDonald',
+                'Info': {
+                    'Calories': calories,
+                    'Carbs': carbs,
+                    'Fats': fats,
+                    'Proteins': proteins
+                }
             })
 
             # print("{}".format(name))
