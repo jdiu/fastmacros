@@ -3,3 +3,8 @@ node_modules/
 npm-debug.*
 .vs/*
 yarn.lock
+dbsrc/venv/*
+dbsrc/phantomjs.exe
+.idea/*
+*/geckodriver.log
+*/ghostdriver.log
