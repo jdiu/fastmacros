@@ -8,3 +8,4 @@ dbsrc/phantomjs.exe
 .idea/*
 */geckodriver.log
 */ghostdriver.log
+backend_src/node_modules/
