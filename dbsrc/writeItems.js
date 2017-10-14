@@ -13,10 +13,9 @@ var categoryMapping = {
 function writeItems() {
     pool.connect((err, client, done) => {
         if (err) throw err;
-        const text = 'INSERT INTO "FoodItems"(restaurant, name, category, info) VALUES($1, $2, $3, $4) RETURNING *'
+        const text = 'INSERT INTO "FoodItems"(restaurant, name, category, calories, protein, carbs, fats) VALUES($1, $2, $3, $4, $5, $6, $7) RETURNING *'
         for(var idx = 0; idx < mcdjson.length; ++idx) {
-            console.log(mcdjson[idx].Restaurant);
-            client.query(text, [mcdjson[idx].Restaurant, mcdjson[idx].Name, mcdjson[idx].Category, mcdjson[idx].Info], (err, res) => {
+            client.query(text, [mcdjson[idx].Restaurant, mcdjson[idx].Name, mcdjson[idx].Category, mcdjson[idx].Info.Calories, mcdjson[idx].Info.Protein, mcdjson[idx].Info.Carbs, mcdjson[idx].Info.Fats], (err, res) => {
                 if (err) {
                     console.log(err);
                     pool.end();
