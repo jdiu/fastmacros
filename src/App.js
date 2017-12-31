@@ -27,6 +27,7 @@ class App extends Component {
           <h2 className="App-title">Fast Macros</h2>
         </header>
         <IntroPage setInputVal={this.setInputVal} />
+        <br/><br/>
         <ResultsPage meal={this.state.meal} />
       </div>
     );

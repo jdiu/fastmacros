@@ -27,7 +27,6 @@ class IntroPage extends Component {
 				'Access-Control-Allow-Origin': '*',
 			}})
 			.then(function(res){
-				console.log(res);
 				self.props.setInputVal('meal', res.data);
 			})
 			.catch(function(err){

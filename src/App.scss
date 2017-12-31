@@ -44,3 +44,46 @@ body {
   justify-content: center;
 }
 /**************/
+
+.item-card {
+  width: 350px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.item-cat {
+  padding: 30px 5%;
+  border-bottom: 1px solid #ccc;
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.item-list {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.item-cat-name {
+  font-size: 2em;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.item-card-name {
+  padding: 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: default;
+  font-size: 1em !important;
+
+}
+
+.item-chart {
+  width: 60%;
+  margin: 0 auto;
+}
