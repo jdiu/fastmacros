@@ -112,14 +112,25 @@ class ResultsPage extends Component {
 
 		return (	
 			<div>
-				<Card className="item-card">
-					<CardContent>
+				<div className="meal-total">
 						<Typography className="item-card-name">Total</Typography>
-						<div className="item-chart">
-							<canvas width="150px" height="150px" className="item-card-chart" item={JSON.stringify(mealTotal)}></canvas>
+						<div className="item-chart-total">
+							<canvas width="150px" height="150px" id="total-chart" item={JSON.stringify(mealTotal)}></canvas>
+							<div className="overview">
+							{ Object.keys(categories).map((key) => {
+								 return(
+									 <div>
+										 <h4>{constants.categoryMapping[key]}</h4>
+										 {categories[key].map((item) => {
+											 return (<p>{item.name}</p>);
+										 })}
+									 </div>
+								 	
+								);
+							 }) }
+							</div>
 						</div>
-					</CardContent>
-				</Card>
+				</div>
 				{ Object.keys(categories).map((key) => {
 					return(
 						<div className="item-cat">
@@ -145,44 +156,67 @@ class ResultsPage extends Component {
 	}
 
 	renderCharts = () => {
+		var config = {
+			type: 'doughnut',
+			data: {
+				datasets: [{
+					// data: [item.carbs, item.fats, item.protein],
+					backgroundColor: constants.chartColors,
+				}]
+			},
+			options: {
+				elements: {
+					center: {
+						// text: item.calories + " cals",
+						color: '#333', // Default is #000000
+						fontStyle: 'Arial', // Default is Arial
+						sidePadding: 20 // Defualt is 20 (as a percentage)
+					}
+				},
+				// tooltips: {
+				// 	callbacks: {
+				// 		label: function(tooltipItems, data) {
+				// 			return data.datasets[tooltipItems.datasetIndex].data[tooltipItems.index] + 'g';
+				// 		}
+				// 	}
+				// }
+			}
+		}
 		var charts = [];
 		var itemCards = document.getElementsByClassName('item-card-chart');
 		for(var i = 0; i < itemCards.length; ++i){
 			var item = JSON.parse(itemCards[i].getAttribute('item'));
-			var config = {
-				type: 'doughnut',
-				data: {
-					datasets: [{
-						data: [item.carbs, item.fats, item.protein],
-						backgroundColor: [
-							"#FF6384",
-							"#36A2EB",
-							"#FFCE56"
-						],
-					}]
-				},
-				options: {
-					elements: {
-						center: {
-							text: item.calories + " cals",
-							color: '#333', // Default is #000000
-							fontStyle: 'Arial', // Default is Arial
-							sidePadding: 20 // Defualt is 20 (as a percentage)
-						}
-					},
-					tooltips: {
-            callbacks: {
-							label: function(tooltipItems, data) {
-								return data.datasets[tooltipItems.datasetIndex].data[tooltipItems.index] + 'g';
-							}
-            }
+			var tempConfig = JSON.parse(JSON.stringify(config));
+			tempConfig.data.datasets[0].data = [item.carbs, item.fats, item.protein];
+			tempConfig.options.elements.center.text = item.calories + " cals";
+			tempConfig.options.tooltips = {
+				callbacks: {
+					label: function(tooltipItems, data) {
+						return data.datasets[tooltipItems.datasetIndex].data[tooltipItems.index] + 'g';
 					}
 				}
 			}
 
-			let myChart = new Chart(itemCards[i], config);
+			let myChart = new Chart(itemCards[i], tempConfig);
 			globalCharts.push(myChart);
 		}
+		var totalChartEle = document.getElementById('total-chart');
+		var item = JSON.parse(totalChartEle.getAttribute('item'));
+		var tempConfig = JSON.parse(JSON.stringify(config));
+		
+		tempConfig.data.labels = ["Carbs", "Fat", "Protein"];
+		tempConfig.data.datasets[0].data = [item.carbs, item.fats, item.protein];
+		tempConfig.options.elements.center.text = item.calories + " cals";
+		tempConfig.options.tooltips = {
+			callbacks: {
+				label: function(tooltipItems, data) {
+					return data.datasets[tooltipItems.datasetIndex].data[tooltipItems.index] + 'g';
+				}
+			}
+		}
+
+		let totalChart = new Chart(totalChartEle, tempConfig);
+		globalCharts.push(totalChart);
 	}
 
   render() {

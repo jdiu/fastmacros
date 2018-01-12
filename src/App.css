@@ -71,3 +71,27 @@ body {
 .item-chart {
   width: 60%;
   margin: 0 auto; }
+
+.item-chart-total {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+#total-chart {
+  max-width: 500px;
+  max-height: 500px;
+  margin: 0;
+  padding: 20px 0; }
+
+.meal-total {
+  background-color: #ddd;
+  padding: 20px 5%; }
+
+#visualDist {
+  width: 50%;
+  height: 25px;
+  margin: 10px auto;
+  border: 1px solid black; }
+
+.overview {
+  text-align: start; }
