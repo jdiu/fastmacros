@@ -12,7 +12,7 @@ class IntroPage extends Component {
 	constructor (props) {
     super(props);
     this.state = {
-			calories: "2000",
+			calories: "2500",
 			macroDistribution: "maintenance"
 		}
 	}
@@ -31,7 +31,7 @@ class IntroPage extends Component {
 		if (this.state.macroDistribution === "maintenance") {
 			// carbs: 40, protein: 40, fat: 20
 			let width = distCanvas.width;
-			let endX = [width * .4, width * .8, width];
+			let endX = [width * .4, width * .6, width];
 			for (let idx = endX.length - 1; idx >= 0; --idx) {
 				ctx.fillStyle = constants.chartColors[idx];
 				ctx.fillRect(0, 0, endX[idx], distCanvas.height);
@@ -98,7 +98,7 @@ class IntroPage extends Component {
 				<br/>
 				<br/>
 				<Button onClick={this.genMeal} raised>
-					Next&nbsp;&nbsp;&nbsp;<i className="material-icons">arrow_forward</i>
+					Generate
 				</Button>
 			</form>
 		</div>

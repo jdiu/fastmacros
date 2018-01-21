@@ -1,11 +1,13 @@
 1. 	make "Total" breakdown look different, more unique
-		- change background
-		- size of card, maybe not use a card
-		- separate with border, then coloured background
+		//- change background
+		//- size of card, maybe not use a card
+		//- separate with border, then coloured background
 
-2.	add legend to top near Total
+//2.	add legend to top near Total
 3. 	percentage in tooltip
 4. 	change input UI to look dope
 5. 	improve meal generation, less drinks, more entrees, try to minimize # of items
 6.	setup amazon hosting for app
 7.	charts for input macro distribution
+8. 	allow user to add items to meal then generate the remaining calories
+//9.	carousel for items

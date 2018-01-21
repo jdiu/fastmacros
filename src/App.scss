@@ -1,3 +1,6 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
 body {
   font-family: "Roboto", "sans-serif";
 }
@@ -46,7 +49,7 @@ body {
 /**************/
 
 .item-card {
-  width: 350px;
+  width: 300px;
   display: inline-block;
   margin-right: 10px;
   margin-bottom: 15px;
@@ -56,30 +59,48 @@ body {
 .item-cat {
   padding: 30px 5%;
   border-bottom: 1px solid #ccc;
+  //background: #ddd;
   &:last-child {
     border-bottom: none;
   }
 }
 
-.item-list {
-  overflow-x: auto;
-  white-space: nowrap;
+.card-box {
+  padding:2px;
+  display: border-box;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: #333;
+}
+
+.item-cat-name, .total-title {
+  font-size: 2em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: left;
+  margin-bottom:20px;
+
+  &:after {
+    content: "";
+    display: block;
+    height: 5px;
+    width: 30px;
+  }
 }
 
 .item-cat-name {
-  font-size: 2em;
-  letter-spacing: 1px;
-  padding-bottom: 10px;
-  text-transform: uppercase;
+  color: #333;
+  &:after{
+    background-color: #333;
+  }
 }
 
 .item-card-name {
-  padding: 0 10px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   cursor: default;
-  font-size: 1em !important;
 
 }
 
@@ -97,13 +118,18 @@ body {
 #total-chart {
   max-width: 500px;
   max-height: 500px;
-  margin: 0;
+  margin-right: 50px;
   padding: 20px 0;
 }
 
 .meal-total {
-  background-color: #ddd;
-  padding: 20px 5%;
+  background-color: #4b7986;
+  padding: 30px 5%;
+  color: #fefefe;
+}
+
+.total-title:after {
+  background-color: #fefefe;
 }
 
 #visualDist {
@@ -115,4 +141,48 @@ body {
 
 .overview {
   text-align: start;
+}
+
+@media screen and (max-width: 1050px) {
+  .item-card {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  #total-chart {
+    max-width: 350px;
+    max-height: 350px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #total-chart {
+    max-width: 400px;
+    max-height: 400px;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .overview {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: row wrap;
+
+    & div {
+      width: 45%;
+    }
+  }
+  
+  .item-chart-total {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .item-card {
+    width: 400px;
+  }
+  
 }

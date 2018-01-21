@@ -1,6 +1,6 @@
 var constants = {
 	categoryMapping: {
-		1: "Entree",
+		1: "Main",
 		2: "Side",
 		3: "Drink",
 		4: "Dessert",

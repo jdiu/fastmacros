@@ -10,6 +10,7 @@ import constants from '../constants';
 import Chart from 'chart.js';
 import Grid from 'material-ui/Grid';
 import {Doughnut} from 'react-chartjs-2';
+import Slider from 'react-slick';
 
 var globalCharts = [];
 
@@ -110,17 +111,48 @@ class ResultsPage extends Component {
 			carbs: this.state.meal.carbTotal,
 		}
 
+		var settings = {
+      dots: true,
+      infinite: false,
+			speed: 500,
+			slidesToShow: 4,
+			slidesToScroll: 4,
+			responsive: [
+				{
+					breakpoint: 1375,
+					settings: {
+						slidesToShow: 3,
+						slidesToScroll: 3
+					}
+				},
+				{
+					breakpoint: 925,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2
+					}
+				},
+				{
+					breakpoint: 675,
+					settings: {
+						slidesToShow: 1,
+						slidesToScroll: 1
+					}
+				}
+			]
+    };
+
 		return (	
 			<div>
 				<div className="meal-total">
-						<Typography className="item-card-name">Total</Typography>
+						<div className="total-title">Summary</div>
 						<div className="item-chart-total">
 							<canvas width="150px" height="150px" id="total-chart" item={JSON.stringify(mealTotal)}></canvas>
 							<div className="overview">
 							{ Object.keys(categories).map((key) => {
 								 return(
 									 <div>
-										 <h4>{constants.categoryMapping[key]}</h4>
+										 <h4>{constants.categoryMapping[key]}s</h4>
 										 {categories[key].map((item) => {
 											 return (<p>{item.name}</p>);
 										 })}
@@ -134,20 +166,24 @@ class ResultsPage extends Component {
 				{ Object.keys(categories).map((key) => {
 					return(
 						<div className="item-cat">
-							<div className="item-cat-name">{constants.categoryMapping[key]}</div>
+							<div className="item-cat-name">{constants.categoryMapping[key]}s</div>
 							<div className="item-list">
-							{categories[key].map((item, idx) => {
-								return(
-									<Card className="item-card">
-										<CardContent>
-											<Typography className="item-card-name" title={item.name}>{item.name}</Typography>
-											<div className="item-chart">
-												<canvas width="150px" height="150px" className="item-card-chart" item={JSON.stringify(item)}></canvas>
-											</div>
-										</CardContent>
-									</Card>
-								);
-							})}
+							<Slider {...settings}>
+								{categories[key].map((item, idx) => {
+									return(
+										<div className="card-box">
+											<Card className="item-card">
+												<CardContent>
+													<Typography className="item-card-name" title={item.name}>{item.name}</Typography>
+													<div className="item-chart">
+														<canvas width="150px" height="150px" className="item-card-chart" item={JSON.stringify(item)}></canvas>
+													</div>
+												</CardContent>
+											</Card>
+										</div>
+									);
+								})}
+							</Slider>
 						</div>
 					</div>
 					);
@@ -167,21 +203,20 @@ class ResultsPage extends Component {
 			options: {
 				elements: {
 					center: {
-						// text: item.calories + " cals",
 						color: '#333', // Default is #000000
 						fontStyle: 'Arial', // Default is Arial
 						sidePadding: 20 // Defualt is 20 (as a percentage)
 					}
 				},
-				// tooltips: {
-				// 	callbacks: {
-				// 		label: function(tooltipItems, data) {
-				// 			return data.datasets[tooltipItems.datasetIndex].data[tooltipItems.index] + 'g';
-				// 		}
-				// 	}
-				// }
 			}
 		}
+
+		var cb = {
+			label: function(tooltipItems, data) {
+				return data.datasets[tooltipItems.datasetIndex].data[tooltipItems.index] + 'g';
+			}
+		};
+
 		var charts = [];
 		var itemCards = document.getElementsByClassName('item-card-chart');
 		for(var i = 0; i < itemCards.length; ++i){
@@ -190,16 +225,14 @@ class ResultsPage extends Component {
 			tempConfig.data.datasets[0].data = [item.carbs, item.fats, item.protein];
 			tempConfig.options.elements.center.text = item.calories + " cals";
 			tempConfig.options.tooltips = {
-				callbacks: {
-					label: function(tooltipItems, data) {
-						return data.datasets[tooltipItems.datasetIndex].data[tooltipItems.index] + 'g';
-					}
-				}
+				callbacks: cb
 			}
 
 			let myChart = new Chart(itemCards[i], tempConfig);
 			globalCharts.push(myChart);
 		}
+
+
 		var totalChartEle = document.getElementById('total-chart');
 		var item = JSON.parse(totalChartEle.getAttribute('item'));
 		var tempConfig = JSON.parse(JSON.stringify(config));
@@ -207,12 +240,14 @@ class ResultsPage extends Component {
 		tempConfig.data.labels = ["Carbs", "Fat", "Protein"];
 		tempConfig.data.datasets[0].data = [item.carbs, item.fats, item.protein];
 		tempConfig.options.elements.center.text = item.calories + " cals";
-		tempConfig.options.tooltips = {
-			callbacks: {
-				label: function(tooltipItems, data) {
-					return data.datasets[tooltipItems.datasetIndex].data[tooltipItems.index] + 'g';
-				}
+		tempConfig.options.elements.center.color = "#fff";
+		tempConfig.options.legend = {
+			labels: {
+				fontColor: "#fff",
 			}
+		};
+		tempConfig.options.tooltips = {
+			callbacks: cb
 		}
 
 		let totalChart = new Chart(totalChartEle, tempConfig);
